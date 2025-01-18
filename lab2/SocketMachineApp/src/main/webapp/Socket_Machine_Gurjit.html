@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Socket Machine</title>
+</head>
+<body>
+    <form action="SocketMachineServlet" method="post">
+        Socket Type:
+        <select name="socketType">
+            <option id="typeA" value="TYPE_A">Type A</option>
+            <option id="typeB" value="TYPE_B">Type B</option>
+            <option id="typeC" value="TYPE_C">Type C</option>
+        </select>
+        Quantity:
+        <input type="number" id="quantity" name="quantity"></input>
+        Customer Name:
+        <input type="text" id="customer_name" name="customer_name"></input>
+        Customer email:
+        <input type="email" id="customer_email" name="customer_email"></input>
+        <input type="submit">
+    </form>
+</body>
+</html>
